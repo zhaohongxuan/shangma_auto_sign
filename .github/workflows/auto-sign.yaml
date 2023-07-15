@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 2 * * *'
 
+env:
+  COOKIES: ${{ secrets.COOKIES }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
