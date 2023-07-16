@@ -14,7 +14,7 @@ function getHeaders(){
     // 不能修改APP_ID
     const APP_ID = "5PFuGr3Q7AA0vbJAFior" 
     
-    const DEVICE_ID = "Z8T23iCPme3DWGRAQLpJO2w0qY2Kq9-R1"
+    const DEVICE_ID = "Z8T23iCPme3DWGRAQLpJO2w0qY2Kq9-R"
     const CHANNEL = "windows-PC"
     const noncesr =  Date.now()
     const ts = Math.floor(noncesr/1000) 
