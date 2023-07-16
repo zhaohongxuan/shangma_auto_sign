@@ -12,6 +12,9 @@
 1. Fork本项目
 2. 在Repo的Setting页面，添加名为`COOKIES`的Secret，Cookie的获取参考下面一节。
 <img width="1286" alt="253779824-0e5fe704-1863-426b-83ca-7d40dcf24bab" src="https://github.com/zhaohongxuan/shangma_auto_sign/assets/8613196/fe4496d8-2e38-4c90-bafc-2b3d86ef187f">
+3. 手动测试运行，在控制台应该能看到 `签到成功/请勿重复签到` 的提示
+<img width="1444" alt="image" src="https://github.com/zhaohongxuan/shangma_auto_sign/assets/8613196/695683c9-fbc2-4cab-9ef8-41e2ddf59b78">
+
 
 
 ### 获取 Cookie
