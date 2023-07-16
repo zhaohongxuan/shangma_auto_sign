@@ -3,8 +3,8 @@ name: Run Auto Sign
 on:
   workflow_dispatch:
   schedule:
-    # Beijing Time 8:17 AM every day to avoid Github Action heavy load period
-    - cron: "17 0 * * *"
+    # UTC time
+    - cron: "0 0 * * *"
 
 env:
   COOKIES: ${{ secrets.COOKIES }}
