@@ -1,4 +1,4 @@
-## 上马自动签到
+## 上马自动签到 [![Run Auto Sign](https://github.com/zhaohongxuan/shangma_auto_sign/actions/workflows/auto-sign.yaml/badge.svg)](https://github.com/zhaohongxuan/shangma_auto_sign/actions/workflows/auto-sign.yaml)
 
 ### 基于 Node.js + GitHub Action 实现上海马拉松官网每日签到
 
