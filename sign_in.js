@@ -85,7 +85,6 @@ async function getAuthorizationByCookie(cookie) {
     }
 
     const data = response.data;
-    console.log('data:', data);
     return shmJwtToken;
   } catch (error) {
     console.error(error);
@@ -112,10 +111,14 @@ async function signIn(cookie){
     
     axios.request(config)
     .then((response) => {
+        if(response.status !==200){
+            throw Error("sign in return http status error:"+ response.status)
+        }
       console.log(JSON.stringify(response.data));
     })
     .catch((error) => {
       console.log(error);
+      throw error;
     });
 }
 
