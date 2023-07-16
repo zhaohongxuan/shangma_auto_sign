@@ -1,9 +1,10 @@
 name: Run Auto Sign 
 
 on:
+  workflow_dispatch:
   schedule:
     # Beijing Time 7:00 AM every day
-    - cron: '25 2 * * *'
+    - cron: '40 2 * * *'
 
 env:
   COOKIES: ${{ secrets.COOKIES }}
