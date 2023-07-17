@@ -3,8 +3,18 @@
   "version": "0.5.0",
   "description": "This is an nodejs script to do shangma auto sign in to get more integral ",
   "main": "main.js",
+  "scripts": {
+    "sign":"node main.js",
+    "format": "prettier --write \"**/*.js\""
+  },
   "dependencies": {
     "axios": "^1.4.0",
-    "crypto-js": "^4.1.1"
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "set-cookie-parser": "^2.6.0"
+  },
+
+  "devDependencies": {
+    "prettier": "^3.0.0"
   }
 }
