@@ -7,7 +7,8 @@ on:
     - cron: "0 0 * * *"
 
 env:
-  COOKIES: ${{ secrets.COOKIES }}
+  SM_USERNAME: ${{ secrets.SM_USERNAME }}
+  SM_PASSWORD: ${{ secrets.SM_PASSWORD }}
 
 jobs:
   build:
