@@ -114,7 +114,10 @@ async function signIn(cookie){
         if(response.status !==200){
             throw Error("sign in return http status error:"+ response.status)
         }
-      console.log(JSON.stringify(response.data));
+        console.log(JSON.stringify(response.data));
+        if(response.data.code !==0 && response.data.code !==5001){
+            throw Error("sign in code error:"+ response.data.code)
+        }
     })
     .catch((error) => {
       console.log(error);
