@@ -10,7 +10,7 @@
 
 ### Use 使用
 
-1. Fork本项目
+1. Fork本项目（顺手点Star以示鼓励～🥳）
 2. 在Repo的Setting页面，添加名为上马官网的用户名：`SM_USERNAME`和密码：`SM_PASSWORD`的Secret <img width="1194" alt="image" src="https://github.com/zhaohongxuan/shangma_auto_sign/assets/8613196/d54c5260-3471-4b61-8d5f-18fccd53d9b6">
 3. 手动测试运行
 <img width="1444" alt="image" src="https://github.com/zhaohongxuan/shangma_auto_sign/assets/8613196/695683c9-fbc2-4cab-9ef8-41e2ddf59b78">
