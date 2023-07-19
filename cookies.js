@@ -1,12 +1,11 @@
-const axios = require('axios')
-const {
+import axios from 'axios'
+import cookieParser from 'set-cookie-parser'
+import {
   getHeaders,
   getLoginHeaders,
   cookiesToString
-} = require('./lib/http_util')
-
-const { encrypt } = require('./lib/encrypt')
-const cookieParser = require('set-cookie-parser')
+} from './lib/http_util.js'
+import { encrypt } from './lib/encrypt.js'
 
 async function getAttachCookies(url, cookies = []) {
   const headers = getHeaders()
@@ -105,11 +104,10 @@ async function getLoginCookies(initCookie) {
   return loginCookies
 }
 
-async function getCookie() {
+export default async function getCookie() {
   const cookies = await getInitCookies()
   const loginCookies = await getLoginCookies(cookies)
   return loginCookies
 }
 
 // getCookie()
-module.exports = getCookie

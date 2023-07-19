@@ -1,6 +1,6 @@
-const axios = require('axios')
-const { getHeaders } = require('./lib/http_util')
-const getCookie = require('./cookies')
+import axios from 'axios'
+import { getHeaders } from './lib/http_util.js'
+import getCookie from './cookies.js'
 
 async function signIn() {
   const cookies = await getCookie()
@@ -35,4 +35,4 @@ async function signIn() {
   }
 }
 
-module.exports = signIn
+export default signIn

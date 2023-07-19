@@ -1,4 +1,4 @@
-const signIn = require('./sign_in.js')
+import signIn from './sign_in.js'
 
 signIn()
   .then(() => {

@@ -7,6 +7,7 @@
     "sign":"node main.js",
     "format": "prettier --write \"**/*.js\""
   },
+  "type": "module",
   "dependencies": {
     "axios": "^1.4.0",
     "crypto-js": "^4.1.1",
