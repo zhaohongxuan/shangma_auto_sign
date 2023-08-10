@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # UTC time
-    - cron: "1 0 * * *"
+    - cron: "9 1 * * *"
 
 env:
   SM_USERNAME: ${{ secrets.SM_USERNAME }}
