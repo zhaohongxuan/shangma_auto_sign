@@ -36,6 +36,6 @@ async function signIn() {
    if (response.data.code == 5001) {
     throw Error('duplicate sign in code error:' + response.data.code)
   }
-}
+} 
 
 export default signIn
