@@ -7,4 +7,4 @@ signIn()
   .catch(error => {
     console.error('执行签到失败：', error.message)
     process.exit(1)
-  })
+ })
