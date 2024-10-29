@@ -8,4 +8,4 @@ signIn()
   .catch(error => {
     console.error('执行签到失败：', error.message, now )
     process.exit(1)
-  })
+ })
